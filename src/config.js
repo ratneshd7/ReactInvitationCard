@@ -1,10 +1,12 @@
 const gallery = [ // Gallery image list
-  require('./Image/gallery/1.png'),
-  require('./Image/gallery/2.jpg'),
-  require('./Image/gallery/3.jpg'),
-  require('./Image/gallery/4.jpg'),
-  require('./Image/gallery/5.jpg'),
-  require('./Image/gallery/6.jpg'),
+require('./Image/gallery/1.png'),
+  require('./Image/gallery/r1.jpeg'),
+  require('./Image/gallery/a1.jpg'),
+  require('./Image/gallery/r1a1.jpg'),
+  require('./Image/gallery/f1.jpg'),
+  require('./Image/gallery/r2.jpeg'),
+  require('./Image/gallery/a2.jpg'),
+  require('./Image/gallery/r2a2.jpeg'),
 ];
 
 export default {
@@ -32,18 +34,18 @@ export default {
     },
     at: '2024-02-04 15:00',
   },
-  groom: {
+  bridal: {
     name: 'Aachal',
-    image: require('./Image/groom.jpeg'),
+    image: require('./Image/aachal.jpeg'),
     phone: '+821011111111',
     facebook: false, // If false, Facebook icon won't show
     father: 'Ajay',
     mother: 'Mamta',
     position: 'Eldest Daughter',
   },
-  bridal: {
+  groom: {
     name: 'Ratnesh',
-    image: require('./Image/bridal.jpeg'),
+    image: require('./Image/ratnesh.jpeg'),
     phone: '+821022222222',
     facebook: 'https://www.facebook.com/luckyyowu',
     father: 'Rakeshchandra',
