@@ -1,9 +1,9 @@
 const gallery = [ // Gallery image list
-require('./Image/gallery/1.png'),
+require('./Image/gallery/1.jpeg'),
   require('./Image/gallery/r1.jpeg'),
   require('./Image/gallery/a1.jpg'),
   require('./Image/gallery/r1a1.jpg'),
-  require('./Image/gallery/f1.jpg'),
+  require('./Image/gallery/f2.jpg'),
   require('./Image/gallery/r2.jpeg'),
   require('./Image/gallery/a2.jpg'),
   require('./Image/gallery/r2a2.jpeg'),
@@ -54,6 +54,7 @@ export default {
   },
   image: {
     header: require('./Image/header.jpg'),
+    hotel: require('./Image/gallery/hotel.jpg'),
     gallery: gallery.map(item => ({
       original: item,
       thumbnail: item,
